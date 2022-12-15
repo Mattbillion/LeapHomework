@@ -1,0 +1,61 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin: 16px 0px;
+  padding: 0;
+}
+
+.date {
+  margin-top: 16px;
+  width: 170px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-size: 12px;
+}
+
+
+.list-btn {
+  height: 16px;
+  padding: 0px 2px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 2px solid coral;
+  background-color: #f0f0f0;
+  margin-top: 16px;
+}
+
+.item p {
+  font-size: 18px;
+}
+
+.create-list {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #f0f0f0;
+  
+
+}
+
+.create-list h1 {
+  font-size: 18px;
+  width: 100%;
+}
+
+.create-list button {
+  border-style: none;
+  border: 1px solid black;
+}
